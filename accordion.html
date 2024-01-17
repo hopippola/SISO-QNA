@@ -4,25 +4,41 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>SISO_Q&A</title>
+    <title>PQ&A</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Ubuntu:wght@500&display=swap');
+
         body {
             font-family: 'Ubuntu', sans-serif;
+        }
+        .custom-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
           }
-        </style>
+      
+          .custom-buttons {
+            width: 25%;
+            margin-top: 0;
+            padding-top: 0;
+          }
+    </style>
 
 <body class="d-flex flex-column min-vh-100">
 
     <header class="bg-white p-3">
-    <!-- 왼쪽 상단 이미지 버튼 -->
-    <button type="button" class="btn btn-primary float-start">
-      <img src="/home/soyeon/project/winter/images/앞면 뱃지로고.png" art="logo" />
-    </button>
-  </header>
+        <!-- 왼쪽 상단 이미지 버튼 -->
+        <button type="button" class="btn btn-primary float-start">
+            <img src="/home/soyeon/project/winter/images/앞면 뱃지로고.png" art="logo" />
+        </button>
+    </header>
 
     <!-- main -->
     <div class="container-fluid">
@@ -33,65 +49,21 @@
             </div>
         </div>
     </div>
-
-
-    <div id="accordion">
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                    <button class="btn btn-link" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                        aria-expanded="true" aria-controls="collapseOne">
-                        Collapsible Group Item #1
-                    </button>
-                </h5>
-            </div>
-
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
-                <div class="card-body">
-                    Anim p<mark>hihihihi</mark>ariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch...
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-                        aria-expanded="false" aria-controls="collapseTwo">
-                        Collapsible Group Item #2
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch...
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-header" id="headingThree">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                        aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
-                <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-                    wolf moon officia aute, non cupidatat skateboard dolor brunch...
-                </div>
-            </div>
-        </div>
+   <div class="container mt-0 custom-container">
+    <div class="d-grid gap-3 custom-buttons">
+      <button type="button" class="btn btn-primary btn-lg">About Timetable</button>
+      <button type="button" class="btn btn-primary btn-lg">About Residence hall</button>
+      <button type="button" class="btn btn-primary btn-lg">About SSU</button>
     </div>
+  </div>
 
     <footer class="mt-auto">
-        <div class="container-fluid py-3 bg-white text-black border border-dark">
+        <div class="container-fluid py-3 bg-white text-black">
             <div class="m-0">
-                <h5>I've made a simple one, and it will be regularly updated!</h5>
-                <h5>If you have more questions, feel free to ask your buddy or DM on SISO Instagram.</h5>
+                <p>
+                    I've made a simple one, and it will be regularly updated!<br>
+                    If you have more questions, feel free to ask your buddy or DM on SISO Instagram.
+                </p>
             </div>
         </div>
     </footer>
@@ -101,4 +73,5 @@
         </script>
 </body>
 </head>
+
 </html>
