@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="kr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -13,8 +13,9 @@
 
         body {
             font-family: 'Ubuntu', sans-serif;
-            background: linear-gradient(to bottom right,  #fffeff, #d7fffe);
+            background: linear-gradient(to bottom right, #fffeff, #d7fffe);
         }
+
         .custom-container {
             display: flex;
             justify-content: center;
@@ -23,29 +24,91 @@
             padding-bottom: 20px;
             margin-top: 20px;
             margin-bottom: 20px;
-          }
-      
-          .custom-buttons {
+        }
+
+        .custom-buttons {
             width: 25%;
             margin-top: 0;
             padding-top: 0;
-          }
+        }
     </style>
 
 <body class="d-flex flex-column min-vh-100">
 
-  <nav class="navbar navbar-white ms-2">
-    <a class="navbar-brand" href="index.html" style="background-color: rgba(255, 255, 255, 0.75); border-radius: 15px;">
-        <img src="images/logo.png" width="40" height="40" alt="Hello">
-        About Residence Hall
-    </a>
-</nav>
-    <!-- main -->
+    <nav class="navbar navbar-white ms-2">
+        <a class="navbar-brand" href="index.html"
+            style="background-color: rgba(255, 255, 255, 0.75); border-radius: 15px;">
+            <img src="images/logo.png" width="40" height="40" alt="Hello">
+            About Residence Hall
+        </a>
+    </nav>
+
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
             <div class="m-3 p-3 text-black text-center">
-                <h1>Do you have any questions?</h1>
-                <h3>This page can help you.</h3>
+                <h1>Frequently Asked Questions</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button id="collapseOneButton" class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                    style="background-color: #FFFACD;">
+                    #1 How can I pay for dormitory fees?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    You need to make the payment in cash. <strong>Overseas transfer is not possible</strong>.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                    style="background-color: #FFFACD;">
+                    #2 When is the check-in date for the dormitory?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>The official check-in date is 24th-25th Feb at 10:00~17:30pm.</strong>
+                    <br>Although you can check-in after 25th, you will not be able to get a refund for the late arrival period. 
+                    <br>You can also check-in until 21:00pm if you contact us previously.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                    style="background-color: #FFFACD;">
+                    #3 Are there any carfew? Can I cook inside the residence hall?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    There is a curfew from 1 am to 5 am. 
+                    Cooking inside the dormitory is not allowed, but there is one microwave on the first floor.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"
+                    style="background-color: #FFFACD;">
+                    #4 Is it possible to have packages and letters delivered there?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    It is possible, there is facility to keep packages you ordered.
+                </div>
             </div>
         </div>
     </div>
@@ -55,7 +118,8 @@
             <div class="m-0">
                 <p>
                     * For more detailed information, please refer to the dormitory website. <br>
-                    <a href="https://ssudorm.ssu.ac.kr:444/SShostel/homepage/english/introduce/intro_01.html" class="text-black">* Soongsil University Residence Hall</a>
+                    <a href="https://ssudorm.ssu.ac.kr:444/SShostel/homepage/english/introduce/intro_01.html"
+                        class="text-black">* Soongsil University Residence Hall</a>
                 </p>
             </div>
         </div>
