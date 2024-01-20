@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="kr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SISO_Q&A</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Ubuntu:wght@500&display=swap');
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background: linear-gradient(to bottom right,  #fffeff, #d7fffe);
+        }
+        .custom-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+      
+          .custom-buttons {
+            width: 25%;
+            margin-top: 0;
+            padding-top: 0;
+          }
+    </style>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-white ms-2">
+      <a class="navbar-brand" href="kindex.html">
+        <img src="images/logo.png" width="40" height="40" alt="">
+        About Soongsil University
+      </a>
+    </nav>
+    <!-- main -->
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="m-3 p-3 text-black text-center">
+                <h1>Frequently Asked Questions</h1>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button id="collapseOneButton" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+                    aria-expanded="false" aria-controls="collapseOne" style="background-color: #FFFACD;">
+                    #1 유세인트에서 시간표 어떻게 찾아요?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    버디 학번이 ID이고 비밀번호는 다 같습니다. ID, 비밀번호 알려준 다음 로그인하고 아래의 단계를 따라가라고 알려주세요.
+                    <br><strong>Management of school affairs > 수강신청/교과과정 > Display personal course schedule</strong>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" 
+                aria-expanded="false" aria-controls="collapseTwo" style="background-color: #FFFACD;">
+                    #2 학생식당 어디있나요?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    학생회관 3층에 학생식당, 신양관 2층에 도담식당 있습니다.
+                    <br>학생식당은 5000원으로 메뉴 3개중에 하나 골라먹을 수 있고 도담식당은 한식 주로 나오며 6000원입니다.
+                    <br>아래 지도 참고해서 찾아가라고 해주세요
+                    <br><img src="images/map.jpg" alt="" width="750" height="1000">
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" 
+                aria-expanded="false" aria-controls="collapseOne" style="background-color: #FFFACD;">
+                    #3 침구류나 수건, 생필품 어디서 사나요?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    학교 근처 이부자리 같은 가게랑 이마트에서 구매하시면 됩니다. 
+                    <br><a href="https://maps.app.goo.gl/bBX1xmX7Yzh4FxyC9"
+                        class="text-black">[이마트 용산점]</a>
+                        <a href="https://maps.app.goo.gl/CLZAYxw2zn2pkPou5"
+                        class="text-black">[이마트 영등포점]</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-auto">
+        <div class="container-fluid py-3 text-black">
+            <div class="m-0">
+                <p>
+                    * 이 외의 사항은 수다방이나 각 팀 운영진들에게 질문해주세요.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
+</body>
+</head>
+
+</html>
