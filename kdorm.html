@@ -9,12 +9,24 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&family=Ubuntu:wght@500&display=swap');
-
-        body {
-            font-family: 'Ubuntu', sans-serif;
+        @font-face {
+            font-family: 'Godo';
+            font-style: normal;
+            font-weight: 400;
+            src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+          }
+          
+          @font-face {
+            font-family: 'Godo';
+            font-style: normal;
+            font-weight: 700;
+            src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff') format('woff');
+          }        
+          body {
+            font-family: 'GoDo', sans-serif;
             background: linear-gradient(to bottom right, #fffeff, #d7fffe);
         }
+
 
         .custom-container {
             display: flex;
